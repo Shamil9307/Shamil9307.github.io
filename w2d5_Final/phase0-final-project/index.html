@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/index.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />       
+    <script defer src="./index.js"></script>    
+    <title>Транслит</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="main">
+    <div class="heading"><h1>T.R.A.N.S.L.I.T.</h1></div>
+    <div class="container">
+      <div class="form">
+        <input class="input" type="text" placeholder="  Начните вводить текст">
+        <button class="button" type="submit">Добавить</button>
+      </div>     
+      <div class="dictionary">        
+        <div class="containerRU">
+          <div class="russian">
+            <span class="index">1</span>Привет          
+          </div>
+        </div>
+        <div class="containerTR">
+          <div class="translit">
+            Privet
+            <img class="deleteString" src="./img/Group_1.png" alt="">
+          </div>
+        </div> 
+      </div>
+      <div class="clear">
+        <img id="deleteAll" src="./img/Group_7.png" alt="">
+        <button class="clearAll" type="submit">Очистить всё</button>
+      </div>      
+    </div>
+  </div>
+</body>
+</html>
